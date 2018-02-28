@@ -1,0 +1,45 @@
+section {
+  .section-header {
+    margin-top: 40px;
+  }
+}
+
+
+
+
+.subscription-option {
+  
+  input[type=radio] {
+    display: none;
+  }
+
+  label {
+    display: block;
+    width: 100%;
+    min-height: 200px;
+    border-radius: 4px;
+    background: #f2f2f2;
+    color: #545454;
+    font-size: 40px;
+    text-align: center;
+    cursor: pointer;
+    padding-top: 50px;
+    transition: 0.5s ease all;
+  }
+
+
+  .plan-price {
+    font-family: $header-font;
+  }
+
+  .plan-name {
+    display: block;
+    font-size: 24px;
+  }
+
+  input[type=radio]:checked + label {
+    background: #0b79EE;
+    color: #fff;
+  }
+
+}
